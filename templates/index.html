@@ -46,8 +46,8 @@
                                 class="sidebar-collapse-icon ti-angle-down"></span></a>
                         <ul>
                             <li><a href="{% url "floor1" %}">Floor 1</a></li>
-                            <li><a href="floor2.html">Floor 2</a></li>
-                            <li><a href="floor3.html">Floor 3</a></li>
+                            <li><a href="{% url "floor2" %}">Floor 2</a></li>
+                            <li><a href="{% url "floor3" %}">Floor 3</a></li>
                         </ul>
                     </li>
 
@@ -246,7 +246,9 @@
 
     <script src="{% static "js/lib/bootstrap.min.js" %}"></script>
     <script src="{% static "js/scripts.js" %}"></script>
-    <script src="{% static "js/floor1.js" %}"></script>
+    
+    
+    <!-- <script src="{% static "js/floor3.js" %}"></script> -->
     <!-- bootstrap -->
 
     <script src="{% static "js/lib/calendar-2/moment.latest.min.js" %}"></script>
